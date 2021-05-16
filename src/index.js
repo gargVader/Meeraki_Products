@@ -1,20 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import ProductCards from './ProductCards'
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter } from 'react-router-dom';
-
-import {
-  Card, CardImg, CardText, CardBody,
-  CardTitle, CardSubtitle, Button, Row, Col, Container
-} from 'reactstrap';
+import New from './New'
 
 ReactDOM.render(
-
-  <BrowserRouter>
-    <ProductCards />
-  </BrowserRouter>,
+  <React.StrictMode>
+    <New />
+  </React.StrictMode>,
   document.getElementById('root')
 );
 
