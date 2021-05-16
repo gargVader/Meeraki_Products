@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import ProductCards from './ProductCards'
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter } from 'react-router-dom';
 
 import {
   Card, CardImg, CardText, CardBody,
@@ -10,25 +11,10 @@ import {
 } from 'reactstrap';
 
 ReactDOM.render(
-  <React.StrictMode>
 
-    <Container>
-      <Row>
-        <Col md={3}> <App id={0} /> </Col>
-        <Col md={3}> <App id={1} /> </Col>
-        <Col md={3}> <App id={2} /> </Col>
-        <Col md={3}> <App id={3} /> </Col>
-      </Row>
-
-      <Row className="justify-content-center">
-        <Col md={3}> <App id={4} /> </Col>
-        <Col md={3}> <App id={5} /> </Col>
-        <Col md={3}> <App id={6} /> </Col>
-        <Col md={3}> <App id={7} /> </Col>
-      </Row>
-    </Container>
-
-  </React.StrictMode>,
+  <BrowserRouter>
+    <ProductCards />
+  </BrowserRouter>,
   document.getElementById('root')
 );
 

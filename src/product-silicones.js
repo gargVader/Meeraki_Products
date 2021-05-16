@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter } from 'react-router-dom';
 
 import {
   Card, CardImg, CardText, CardBody,
@@ -11,7 +12,6 @@ import {
 
 ReactDOM.render(
   <React.StrictMode>
-
     <Container>
       <Row>
         <Col md={3}> <App id={0} /> </Col>
@@ -27,7 +27,6 @@ ReactDOM.render(
         <Col md={3}> <App id={7} /> </Col>
       </Row>
     </Container>
-
   </React.StrictMode>,
   document.getElementById('root')
 );
