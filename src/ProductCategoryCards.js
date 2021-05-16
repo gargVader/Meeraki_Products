@@ -8,21 +8,15 @@ import App from './App'
 
 function ProductCategoryCards() {
     return (
-
         <div>
-
             {/* Product section start */}
             <section id="portfolio" class="portfolio">
-
                 <div class="container" data-aos="fade-up">
-
                     <header class="section-header">
                         <h2>Products</h2>
                         <p>Check our latest products</p>
                     </header>
-
                     <div class="row gy-4 portfolio-container" data-aos="fade-up" data-aos-delay="200">
-
                         <div class="col-lg-12 col-md-12 portfolio-item align-items-stretch">
                             <Container>
                                 <Row>
@@ -39,7 +33,6 @@ function ProductCategoryCards() {
                                     <Col md={3}> <Link to="/construction_chemicals"> <App id={7} /> </Link> </Col>
                                 </Row>
                             </Container>
-
                         </div>
                     </div>
                 </div>
@@ -48,15 +41,11 @@ function ProductCategoryCards() {
 
             {/* Team section start */}
             <section id="team" class="team">
-
                 <div class="container" data-aos="fade-up">
-
                     <header class="section-header">
                         <p>Team</p>
                     </header>
-
                     <div class="row gy-4 justify-content-center">
-
                         <div class="col-lg-3 col-md-6 d-flex align-items" data-aos="fade-up" data-aos-delay="400">
                             <div class="member">
                                 <div class="member-img">
@@ -74,16 +63,12 @@ function ProductCategoryCards() {
                                 </div>
                             </div>
                         </div>
-
                     </div>
-
                 </div>
-
             </section>
             {/* Team section end */}
 
             {/* Contact section start */}
-
             <section id="contact" className="contact">
                 <div className="container" data-aos="fade-up">
                     <header className="section-header">
@@ -154,8 +139,6 @@ function ProductCategoryCards() {
                 </div>
             </section>
             {/* Contact section end */}
-
-
         </div>
     )
 }
