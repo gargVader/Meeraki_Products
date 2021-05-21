@@ -1,10 +1,8 @@
 import React from 'react'
 
-function CommonHeader() {
+function Header() {
     return (
-
         <div>
-
             {/* Hero Section start*/}
             <section id="hero" class="hero d-flex align-items-center">
                 <div class="container">
@@ -131,20 +129,12 @@ function CommonHeader() {
                                 team is dedicated to get your product to your door safely and on time.</p>
                             </div>
                         </div>
-
-
                     </div>
-
                 </div>
-
             </section>
-
             {/* Values section end */}
-
-
         </div>
-
     )
 }
 
-export default CommonHeader;
+export default Header;

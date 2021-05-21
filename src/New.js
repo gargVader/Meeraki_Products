@@ -14,7 +14,7 @@ import RenewableEnergyProducts from './productCategories/RenewableEnergyProducts
 import WaterTeatmentChemicals from './productCategories/WaterTreatmentChemicals'
 import ConstructionChemicals from './productCategories/ConstructionChemicals'
 import ProductCategoryCards from './ProductCategoryCards'
-import CommonHeader from "./CommonHeader"
+import Header from "./Header"
 
 
 export default function App() {
@@ -22,10 +22,11 @@ export default function App() {
         <Router>
             <div>
 
-                <CommonHeader />
-
                 <Switch>
-                    <Route exact path="/"> <ProductCategoryCards /> </Route>
+                    <Route exact path="/">
+                        <Header />
+                        <ProductCategoryCards />
+                    </Route>
                     <Route exact path="/silicones"> <Silicones /> </Route>
                     <Route exact path="/paints"> <Paints /> </Route>
                     <Route exact path="/silver_ion_technology"> <SilverIonTechnology /> </Route>
@@ -35,7 +36,7 @@ export default function App() {
                     <Route exact path="/water_treatment_chemicals"> <WaterTeatmentChemicals /> </Route>
                     <Route exact path="/construction_chemicals"> <ConstructionChemicals /> </Route>
                 </Switch>
-                
+
             </div>
         </Router>
     );

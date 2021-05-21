@@ -1,9 +1,9 @@
 export default[
     {
         "productId": 1,
-        "productName": "Silicone Surfactant Polyether Siloxane based (Silicone Spreader Sticker and Wetting Agent)",
+        "productName": "Silicone Surfactant Polyether Siloxane based",
         "productCategory": "Silicones",
-        "productShortDescription": "",
+        "productShortDescription": "Silicone Spreader Sticker and Wetting Agent",
         "productDescription": "Agriculture –Agro Performance Enhancer. It is a Spray Adjuvant with Superior spreading over non-ionic surfactant organic certified APEO free for many agricultural applications. Its components provides excellent rain fastening properties and therefore is very effective in pesticide applications under humid and wet weather conditions. On mixing with the insecticides, fungicides, herbicides and defoliators increase their efficacy. As a result the crops, fruits and vegetables are better protected from diseases and pests resulting in better yield .These silicone spreader sticker /wetting agents can be mixed in most of the pesticides solutions to improve their performance many folds.",
         "productImage": ""
     },
@@ -129,7 +129,7 @@ export default[
     },
     {
         "productId": 17,
-        "productName": "Muniwet 30 / 40 ( APEO Free )",
+        "productName": "Muniwet 30 / 40 (APEO Free)",
         "productCategory": "Paints",
         "productShortDescription": "Wetting Agents& Dispersing Agent for paint & coatings",
         "productDescription": "is a jelly liquid, dispersion in water and it is blend of Alkoxylated product, which gives good emulsifying, wetting and dispersing agent  widely using in in the textile, detergent, agrochemical, emulsion polymerization and paint industries.",

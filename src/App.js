@@ -39,7 +39,7 @@ function App(props) {
           <CardTitle tag="h5">{titleData[props.id]}</CardTitle>
           <CardSubtitle tag="h6" className="mb-2 text-muted">{subTitleData[props.id]}</CardSubtitle>
           {/* <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText> */}
-          <Button color="success" className="btn" href="../public/products-silicones">Know More</Button>
+          <Button color="success" className="btn">Know More</Button>
         </CardBody>
       </Card>
     </div>
